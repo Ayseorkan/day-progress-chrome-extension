@@ -53,7 +53,7 @@ To help you stay aware of your time and improve daily focus — especially usefu
 Made with simplicity in mind.
 
 <p align="center">
-  <img src="assets/banner.png" alt="Today's Progress Banner" width="100%">
+  <img src="assets/promo.png" alt="Today's Progress Banner" width="100%">
 </p>
 
 <h1 align="center">Today’s Progress</h1>
@@ -79,7 +79,7 @@ It shows how much of the current day has passed through a live progress bar, upd
 ## Preview
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="Today's Progress Screenshot" width="800">
+  <img src="assets/screenshots.png" alt="Today's Progress Screenshot" width="800">
 </p>
 
 ---
