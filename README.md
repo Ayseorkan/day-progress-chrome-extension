@@ -13,9 +13,9 @@ A minimal Chrome extension that shows how much of your day has passed — in rea
 
 ## 📸 Preview
 
-![Preview](assets/promo.png) 
-![Preview](assets/screenshots.png)
-![Preview](assets/toolbar_promo.png)
+![Preview](assets/icons/promo.png) 
+![Preview](assets/icons/screenshots.png)
+![Preview](assets/icons/toolbar_promo.png)
 
 ## 🚀 How it works
 
@@ -28,7 +28,7 @@ This extension does **not collect or store any personal data**.
 All calculations are done locally in your browser.
 
 👉 [Privacy Policy](./privacy-policy.md)
-https://gist.githubusercontent.com/Ayseorkan/12908a622d05d1a4914532b438da3e1b/raw/37654af285f347484fa16e3c17d67e9f48aea879/privacy-policy.txt
+👉https://gist.githubusercontent.com/Ayseorkan/12908a622d05d1a4914532b438da3e1b/raw/37654af285f347484fa16e3c17d67e9f48aea879/privacy-policy.txt
 
 ## 📦 Installation (Manual)
 
@@ -53,7 +53,7 @@ To help you stay aware of your time and improve daily focus — especially usefu
 Made with simplicity in mind.
 
 <p align="center">
-  <img src="assets/promo.png" alt="Today's Progress Banner" width="100%">
+  <img src="assets/icons/promo.png" alt="Today's Progress Banner" width="100%">
 </p>
 
 <h1 align="center">Today’s Progress</h1>
@@ -79,7 +79,7 @@ It shows how much of the current day has passed through a live progress bar, upd
 ## Preview
 
 <p align="center">
-  <img src="assets/screenshots.png" alt="Today's Progress Screenshot" width="800">
+  <img src="assets/icons/screenshots.png" alt="Today's Progress Screenshot" width="800">
 </p>
 
 ---
