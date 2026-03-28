@@ -1,0 +1,126 @@
+:root {
+  --bg-color: #0b1f3a;
+  --text-color: #ffffff;
+  --bar-bg: #2a3a50;
+  --bar-gradient-start: #ffd166;
+  --bar-gradient-end: #ef476f;
+}
+
+/* Light mode overrides */
+body.light-mode {
+  --bg-color: #d3dce6;      
+  --text-color: #1b1b1b;        
+  --bar-bg: #eff3f7;         
+  --bar-gradient-start: #ffd166;
+  --bar-gradient-end: #ef476f;
+}
+
+body{
+  margin:0;
+  padding:0;
+  width:420px;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+section{
+  position: relative;  /* parent for absolute elements */
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:25px;
+}
+
+.heading {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+
+  color: rgba(255, 255, 255, 0.65);
+  opacity: 0.8;
+
+  pointer-events: none;
+}
+
+/* Light mode */
+body.light-mode .heading {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#theme-toggle{
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  width:25px;
+  height:25px;
+  border:none;
+  border-radius:50%;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25), 0 0 8px rgba(255,255,255,0.2);
+  z-index: 999;
+}
+
+#theme-toggle:hover{
+  transform: scale(1.15);
+}
+
+/* Icon animation */
+.icon{
+  display:inline-block;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+.progress-wrapper{
+  width:100%;
+  height:15px;
+  background: var(--bar-bg);
+  border-radius:30px;
+  overflow:hidden;
+  position: relative;
+}
+
+.progress-bar{
+  height:100%;
+  width:0%;
+  border-radius:30px;
+  transition:width 1s linear, background 0.3s;
+  background: linear-gradient(
+    135deg,
+    var(--bar-gradient-start),
+    var(--bar-gradient-end)
+  );
+  display:flex;
+  align-items:center;
+  padding-left:5px;
+}
+
+.bar-percent{
+  font-size:12px;
+  font-weight:600;
+  color:#0d1117;
+}
+
+.time{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  font-size:12px;
+  font-weight:600;
+  color:#0d1117;
+}
