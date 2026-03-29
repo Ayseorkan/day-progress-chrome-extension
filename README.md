@@ -1,7 +1,33 @@
-# Day Progress Browser Extesion
-## Today’s Progress ⏳
+<h1 align="center"> Day Progress Chrome Extesion</h1>
 
-A minimal Chrome extension that shows how much of your day has passed — in real time.
+<div align="center">
+
+<img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+
+<h2>Today’s Progress</h2>
+
+<p>
+A minimal browser extension that shows how much of your day has passed in real time.
+</p>
+
+<p>
+Clean. Lightweight. Focused.
+</p>
+
+<a href="https://chromewebstore.google.com/detail/todays-progress/knmhogkimljcnalecahidlaalianmgep">
+  <img src="https://img.shields.io/badge/Add%20to-Chrome-blue?logo=googlechrome&logoColor=white">
+</a>
+
+</div>
+
+## 📸 Preview
+
+<!-- <p align="center">
+  <img src="assets/icons/promo.png" alt="Today's Progress Screenshot" >
+</p> -->
+
+![Preview](assets/icons/output_bp.png) 
 
 ## ✨ Features
 
@@ -9,128 +35,40 @@ A minimal Chrome extension that shows how much of your day has passed — in rea
 * Clean and minimal UI
 * Dark & light mode toggle
 * Lightweight and fast
-* Runs fully locally (no data collection)
-
-## 📸 Preview
-
-![Preview](assets/icons/promo.png) 
-![Preview](assets/icons/screenshots.png)
-![Preview](assets/icons/toolbar_promo.png)
+* Works fully locally on your device
 
 ## 🚀 How it works
 
 The extension calculates how much of the current day has passed using your system time and displays it as a visual progress bar.
 
+<p >
+  <img src="assets/icons/ss.png" >
+</p>
+
+<p >
+  <img src="assets/icons/toolbar.png" >
+</p>
+
+
 ## 🔒 Privacy
 
-This extension does **not collect or store any personal data**.
+**Today’s Progress does not collect, store, or share any personal data.**
 
-All calculations are done locally in your browser.
+The extension only uses the current system time to calculate and display the daily progress bar.
 
-👉 [Privacy Policy](./privacy-policy.md)
-👉https://gist.githubusercontent.com/Ayseorkan/12908a622d05d1a4914532b438da3e1b/raw/37654af285f347484fa16e3c17d67e9f48aea879/privacy-policy.txt
+All processing happens locally on the user’s device.
+
+For more details, see the [Privacy Policy](https://gist.githubusercontent.com/Ayseorkan/12908a622d05d1a4914532b438da3e1b/raw/37654af285f347484fa16e3c17d67e9f48aea879/privacy-policy.txt).
+
+<!-- 👉 [Privacy Policy](./privacy-policy.md)     --> 
 
 ## 📦 Installation (Manual)
-
+#### Load unpacked in Chrome
 1. Clone this repo
 2. Go to `chrome://extensions/`
 3. Enable **Developer Mode**
 4. Click **Load unpacked**
 5. Select the project folder
-
-## 🛠 Tech
-
-* Vanilla JavaScript
-* Chrome Extension (Manifest v3)
-* HTML / CSS
-
-## 💡 Why?
-
-To help you stay aware of your time and improve daily focus — especially useful for people with ADHD or focus challenges.
-
----
-
-Made with simplicity in mind.
-
-<p align="center">
-  <img src="assets/icons/promo.png" alt="Today's Progress Banner" width="100%">
-</p>
-
-<h1 align="center">Today’s Progress</h1>
-
-<p align="center">
-  A minimal Chrome extension that shows how much of your day has passed in real time.
-</p>
-
-<p align="center">
-  Clean. Lightweight. Focused.
-</p>
-
----
-
-## Overview
-
-**Today’s Progress** is a minimalist Chrome extension designed to help you stay aware of your time with a simple visual indicator.
-
-It shows how much of the current day has passed through a live progress bar, updated in real time. The extension is built to be lightweight, distraction-free, and easy to use.
-
----
-
-## Preview
-
-<p align="center">
-  <img src="assets/icons/screenshots.png" alt="Today's Progress Screenshot" width="800">
-</p>
-
----
-
-## Features
-
-* Live daily progress bar
-* Real-time percentage display
-* Current time shown inside the bar
-* Dark and light mode toggle
-* Minimal and distraction-free interface
-* Lightweight and fast
-* Works fully locally on your device
-
----
-
-## Why I made this
-
-Time can easily slip away when you are busy, distracted, or switching between tasks.
-
-**Today’s Progress** gives you a simple way to see your day moving forward at a glance.
-
-It is especially useful for people who like visual time awareness, including users with focus challenges such as ADHD.
-
----
-
-## How it works
-
-The extension uses your current system time to calculate:
-
-* how many seconds have passed since the start of the day
-* what percentage of the day is complete
-* a visual progress bar that updates continuously
-
-Everything runs locally in the browser.
-
-No accounts, no tracking, no sync, no external services.
-
----
-
-## Installation
-
-### Load unpacked in Chrome
-
-1. Download or clone this repository
-2. Open `chrome://extensions/`
-3. Enable **Developer mode**
-4. Click **Load unpacked**
-5. Select the project folder
-
----
 
 ## Project Structure
 
@@ -153,51 +91,23 @@ README.md
 privacy-policy.md
 ```
 
----
+## 🛠 Tech
 
-## Privacy
+* Vanilla JavaScript
+* Chrome Extension (Manifest v3)
+* HTML / CSS
 
-**Today’s Progress does not collect, store, or share any personal data.**
+## 💡 Why?
 
-The extension only uses the current system time to calculate and display the daily progress bar.
+To help you stay aware of your time and improve daily focus — especially useful for people with ADHD or focus challenges.
 
-All processing happens locally on the user’s device.
+Made with simplicity in mind.
 
-For more details, see the [Privacy Policy](./privacy-policy.md).
+## 📄 License
 
----
+This project is licensed under the MIT License.
 
-## Tech Stack
+You are free to use, modify, and distribute this software with proper attribution.
 
-* HTML
-* CSS
-* JavaScript
-* Chrome Extension Manifest V3
-
----
-
-## Notes
-
-This project is intentionally simple.
-
-The goal is not to overload the interface with features, but to provide a small and useful visual reminder of time passing throughout the day.
-
----
-
-## Future Ideas
-
-* Optional custom themes
-* More progress styles
-* Motivational micro-text
-* Custom start/end day settings
-* Percentage on browser action tooltip
-
----
-
-## License
-
-This project is for personal and educational use unless otherwise specified.
-
----
-
+See the [LICENSE](./LICENSE) file for details.
 
