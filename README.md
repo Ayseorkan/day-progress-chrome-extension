@@ -5,9 +5,7 @@
 <img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
-<p align="center" style="font-size: 26px; ">
-  Today’s Progress
-</p>
+<h1>Today’s Progress</h1>
 
 <p>
 A minimal browser extension that shows how much of your day has passed in real time.
