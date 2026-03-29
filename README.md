@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
-<p align="center" style="font-size: 26px; font-weight: 600; margin-top: 10px;">
+<p align="center" style="font-size: 26px; ">
   Today’s Progress
 </p>
 
