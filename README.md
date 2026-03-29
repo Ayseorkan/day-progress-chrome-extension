@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
-<p align="center" style="font-size: 24px; font-weight: bold;">
+<p align="center" style="font-size: 26px; font-weight: 600; margin-top: 10px;">
   Today’s Progress
 </p>
 
@@ -18,7 +18,7 @@ Clean. Lightweight. Focused.
 </p>
 
 <a href="https://chromewebstore.google.com/detail/todays-progress/knmhogkimljcnalecahidlaalianmgep">
-  <img src="https://img.shields.io/badge/Add%20to-Chrome-blue?logo=googlechrome&logoColor=white">
+  <img src="https://img.shields.io/badge/Available%20on-Chrome%20Web%20Store-blue?logo=googlechrome&logoColor=white">
 </a>
 
 </div>
