@@ -2,10 +2,12 @@
 
 <div align="center">
 
+<a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">
 <img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+</a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-<h1>Today’s Progress</h1>
+<h2>Today’s Progress</h2>
 
 <p>
 A minimal browser extension that shows how much of your day has passed in real time.
@@ -79,6 +81,9 @@ assets/
     icon-32.png
     icon-48.png
     icon-128.png
+    promo.png
+    ss.png
+    toolbar.png
 
 src/
   background.js
@@ -86,8 +91,9 @@ src/
   popup.js
   style.css
 
-manifest.json
+LICENSE
 README.md
+manifest.json
 privacy-policy.md
 ```
 
