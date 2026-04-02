@@ -5,7 +5,9 @@
 <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">
 <img src="https://img.shields.io/badge/Manifest-V3-4CAF50">
 </a>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+<a href="LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+</a>
 
 <h2>Today’s Progress</h2>
 
