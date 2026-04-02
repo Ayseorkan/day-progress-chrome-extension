@@ -3,7 +3,7 @@
 <div align="center">
 
   <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Manifest-V3-4CAF50" />
+    <img src="https://img.shields.io/badge/Manifest-V3-4CAF50"/>
   </a>
   
   <a href="./LICENSE">
