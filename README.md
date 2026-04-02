@@ -2,12 +2,12 @@
 
 <div align="center">
 
-  <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">
+  <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Manifest-V3-4CAF50" />
   </a>
-  &nbsp;
+  
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="text-decoration: none;"/>
   </a>
 
 <h2>Today’s Progress</h2>
